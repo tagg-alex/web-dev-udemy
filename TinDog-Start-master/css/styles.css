@@ -1,0 +1,178 @@
+body {
+    font-family: 'Montserrat';
+}
+h1, h2, h3, p {
+    font-family: 'Montserrat';
+    /*font-family: 'Ubuntu, sans-serif';*/
+    /* font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900; */
+}
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+p {
+    color: #8f8f8f;
+    padding: 1%;
+}
+
+.container-fluid {
+    padding: 3% 15% 10%;
+}
+
+
+/*Sections*/
+.colored {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white {
+    background-color: #fff;
+}
+/*Headings*/
+.big-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* Nav Bar  */
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+}
+
+
+/*Download Buttons*/
+.download-btn {
+    margin: 7% 3% 3% 0%;
+}
+
+
+#title {
+    text-align: left;
+}
+
+/*Title Image*/
+#phone-image {
+    transform: rotate(25deg);
+    width: 20rem;
+    position: absolute;
+    right: 20%;
+}
+
+
+/*Features Section*/
+#features {
+    padding: 5% 15%;
+    position: relative;
+    width: 100%;
+}
+
+.feature-box {
+    padding: 4.5%;
+    text-align: center;
+}
+
+.awesome {
+    color: #f57c8e;
+    margin-bottom: 1rem;
+}
+
+.awesome:hover {
+    color: #ff4c68;
+}
+
+
+/*Testimonials Section*/
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+}
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/*Press Section*/
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.sponsor-logo {
+    width: 8%;
+    margin: 00px 50px 50px 50px;
+}
+
+
+/*Pricing Section*/
+#pricing {
+    padding: 5%;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/*CTA Section*/
+#cta {
+    padding: 5% 7%;
+    text-align: center;
+}
+
+
+/*Footer Section*/
+#footer {
+    text-align: center;
+    padding: 3%;
+}
+
+.footer-link {
+    padding: 1%;
+}
+
+.iconcolor {
+    color: #000;
+}
+
+
+/*Media Scrteen width image dependencies*/
+@media (max-width: 1250px) {
+    #phone-image {
+        position: static;
+        width:15rem;
+        transform: rotate(0);
+    }
+}
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+}
